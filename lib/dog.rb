@@ -14,8 +14,8 @@ class Dog
   
   def self.all
     @@all.collect do |dog|
-     puts  dog.name
+     
     end
-    
+    puts  dog.name
   end
 end
